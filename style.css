@@ -153,3 +153,30 @@ footer.copyright {
     padding: 20px 0;
   }
 }
+
+
+@media (max-width: 768px) {
+  nav {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  nav a {
+    font-size: 1rem;
+    margin: 5px 10px 0 0;
+  }
+
+  .sns {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+  }
+
+  .sns img {
+    height: 22px;
+    margin-left: 10px;
+  }
+}
